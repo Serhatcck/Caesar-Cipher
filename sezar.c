@@ -25,6 +25,6 @@ int main(){
     scanf("%d",&key);
     shift(word,key);
     printf("encoded :%s\n",word);
-    shift(word,-2);
+    shift(word,-key);
     printf("unencoded:%s",word);
 }
